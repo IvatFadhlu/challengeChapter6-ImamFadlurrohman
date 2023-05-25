@@ -1,0 +1,82 @@
+.body {
+  text-decoration: none;
+}
+
+#main-title {
+  background-image: url("../images/main-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+#features {
+  background-image: url("../images/main-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.bg-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#gallery {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  /* background-image: url('../images/the-games-bg.jpg'); */
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.list-feature {
+  list-style-type: none;
+}
+
+.list-feature:before {
+  content: "";
+  background: #fff;
+  position: absolute;
+  margin-top: 3px;
+  left: 20px;
+  height: 100px;
+  width: 3px;
+}
+
+.item-feature {
+  margin-bottom: 40px;
+}
+
+.item-feature:before {
+  content: "";
+  background: #fff;
+  position: absolute;
+  margin-top: 3px;
+  /* top: 5px; */
+  left: 15px;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+.item-feature-transparent:before {
+  content: "";
+  background: transparent;
+  position: absolute;
+  border: 1px solid #fff;
+  margin-top: 3px;
+  /* top: 5px; */
+  left: 15px;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+.thestory {
+  color: aliceblue;
+  font-style: oblique;
+  cursor: pointer;
+}

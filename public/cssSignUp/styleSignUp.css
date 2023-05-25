@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
+:root {
+  --main-font: "Open Sans", sans-serif;
+}
+
+body {
+  font-family: var(--main-font);
+  text-decoration: none;
+}
+
+/* CSS untuk elemen heading */
+.createAccount {
+  position: absolute;
+  width: 483.23px;
+  height: 72.1px;
+  left: 558.38px;
+  top: 198.5px;
+
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 72px;
+  text-align: center;
+
+  /* Heading */
+
+  color: #212b27;
+}
+
+.createAccountLi {
+  position: absolute;
+  width: 472.49px;
+  height: 59.83px;
+  left: 562.99px;
+  top: 276.74px;
+
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  /* or 130% */
+
+  text-align: center;
+
+  /* Paragraph */
+
+  color: #32403b;
+}
+
+/* CSS untuk elemen input */
+li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+input[type="email"] {
+  box-sizing: border-box;
+
+  position: absolute;
+  padding-left: 20px;
+  width: 575.27px;
+  height: 84.37px;
+  left: 510.83px;
+  top: 385.65px;
+
+  background: #ffffff;
+  border: 1.53407px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15.3407px;
+}
+/* ::placeholder {
+  padding-left: 20px;
+  color: #555;
+} */
+
+input[type="password"] {
+  box-sizing: border-box;
+
+  position: absolute;
+  padding-left: 20px;
+  width: 575.27px;
+  height: 84.37px;
+  left: 510.83px;
+  top: 493.04px;
+
+  background: #ffffff;
+  border: 1.53407px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15.3407px;
+}
+
+/* CSS untuk tombol */
+.createAccountButton {
+  position: absolute;
+  width: 245.45px;
+  height: 44.49px;
+  left: 676.51px;
+  top: 632.64px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 44px;
+  /* or 130% */
+
+  text-align: center;
+  background: #84c7ae;
+  border-radius: 23.011px;
+
+  color: #ffffff;
+}
+
+.createAccountButton:hover {
+  background-color: #555;
+  cursor: pointer;
+}
+
+/* CSS untuk tautan login */
+h9 {
+  position: absolute;
+  width: 326.76px;
+  height: 29.15px;
+  left: 636.62px;
+  top: 717.01px;
+
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  /* or 130% */
+
+  text-align: center;
+
+  /* Paragraph */
+
+  color: #32403b;
+}
+
+h9 span {
+  color: #333;
+  cursor: pointer;
+}
+
+h9 span:hover {
+  color: #555;
+}
